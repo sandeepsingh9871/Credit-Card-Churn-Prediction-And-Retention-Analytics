@@ -12,11 +12,6 @@ realistic, documented causal relationships, so downstream statistical
 tests (chi-square, t-test, logistic regression, propensity matching) have
 genuine signal to recover -- not just noise.
 
-Two outputs:
-  1. card_customers.csv        -- the full account-level dataset
-  2. offer_experiment.csv      -- the subset used for the A/B test / PSM stage
-
-Run: python synthetic_data_generator.py
 """
 
 import numpy as np
@@ -115,9 +110,9 @@ def generate_customers(n=N):
         "login_frequency_monthly": login_frequency_monthly,
     })
 
-    # =========================================================
+
     # CHURN PROBABILITY MODEL -- the causal core of the dataset
-    # =========================================================
+
     is_owner = (df["cardholder_role"] == "business_owner").astype(int)
     declining_spend = np.clip(-df["spend_trend_3mo"], 0, None)  # only negative trend hurts
     # U-shaped utilization risk: stress at high util, disengagement at very low util
