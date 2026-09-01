@@ -210,6 +210,6 @@ if __name__ == "__main__":
     # in the real world you'd never have this; keep it only inside this
     # script's output for your own validation if needed.
     customers_out = customers.drop(columns=["churn_prob_true"])
-    customers_out.to_csv("card_customers.csv", index=False)
-    experiment.to_csv("offer_experiment.csv", index=False)
-    print("\nSaved: card_customers.csv, offer_experiment.csv")
+    customers_out.to_csv("data/card_customers.csv", index=False)
+    experiment.to_csv("data/offer_experiment.csv", index=False)
+    print("\nSaved: data/card_customers.csv, data/offer_experiment.csv")
