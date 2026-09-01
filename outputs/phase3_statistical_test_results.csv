@@ -1,0 +1,6 @@
+test,statistic,p_value,effect_size,significant
+Chi-Square: Cardholder Role vs Churn,2532.17,0.0,0.159,True
+Chi-Square: Industry vs Churn,11.07,0.05005290956301578,0.011,False
+Chi-Square: Credit Band vs Churn,49.04,1.279241065780787e-10,0.022,True
+T-Test: Monthly Spend,-2.92,0.0035269547535446296,0.023,True
+T-Test: 3mo Spend Trend,-16.15,2.061470041461528e-58,,True
