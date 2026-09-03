@@ -1,0 +1,5 @@
+metric,value
+naive_lift,0.10438659858014698
+psm_matched_lift,0.09635373700709449
+matched_sample_size,6061.0
+p_value_matched,3.310117958829884e-42

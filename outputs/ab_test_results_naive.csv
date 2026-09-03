@@ -1,0 +1,6 @@
+metric,value
+chi2_statistic,241.8101680248109
+p_value,1.5849448232147183e-54
+naive_retention_lift,0.10438659858014698
+control_retention,0.7458064516129033
+treatment_retention,0.8501930501930502
