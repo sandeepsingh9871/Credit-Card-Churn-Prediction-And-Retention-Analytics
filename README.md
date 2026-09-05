@@ -262,10 +262,10 @@ p < 0.001 (significant)
 
 **Retention by tenure milestone:**
 ```
-Month 1:        92.6% retention
+Month 1:        92.1% retention
 Month 3:        90.1% retention
-Month 6:        86.4% retention
-Month 12:       85.5% retention
+Month 6:        87.0% retention
+Month 12:       85.9% retention
 ```
 
 **By risk tier:**
@@ -341,7 +341,7 @@ Net ROI: +$1M (50% return)
    sql/card_churn.db → DB Browser for SQLite
    ```
 
-2. **Run queries from `sql/card_churn_queries.sql`:**
+2. **Run queries from `sql/card churn queries.sql`:**
    - Section 1: Portfolio overview (churn rate, segment breakdown)
    - Section 2: Spend & behavior analysis
    - Section 3: Risk segmentation
@@ -356,7 +356,7 @@ Net ROI: +$1M (50% return)
 
 1. **Open notebook:**
    ```bash
-   jupyter notebook notebooks/Card_Churn_Retention_Analytics.ipynb
+   jupyter notebook -Card_Churn_Retention_Analytics.ipynb
    ```
 
 2. **Run all 8 phases sequentially:**
@@ -409,7 +409,7 @@ Net ROI: +$1M (50% return)
 
 ---
 
-## 🎓 Key Learnings & Interview Talking Points
+## 🎓 Key Learnings & Important Points
 
 ### "Tell me about a time you analyzed retention data."
 
@@ -457,16 +457,10 @@ Net ROI: +$1M (50% return)
 
 ### For Portfolio/GitHub
 1. ✅ Clone this repo
-2. ✅ Read `PROJECT_DOCUMENTATION.md` to understand the analysis
+2. ✅ Read `README.md` to understand the analysis
 3. ✅ Run SQLite queries to validate results
 4. ✅ (Optional) Run the Jupyter notebook for full walkthrough
 5. ✅ Link to this repo in your resume/portfolio
-
-### For Interviews
-1. ✅ Study the three talking points above
-2. ✅ Be ready to explain Phase 7 (propensity matching) — this separates strong candidates
-3. ✅ Mention specific numbers (27.74% vs 14.76%, +5.9% causal lift)
-4. ✅ Highlight the business impact ($2.5M revenue saved, 50% ROI)
 
 ### For Production
 1. Deploy the churn scoring model (Phase 5) in batch jobs
@@ -530,13 +524,7 @@ This project demonstrates:
 
 ---
 
-## 📄 License
-
-This project is open-source under the MIT License. Feel free to use for learning, portfolios, or production (with attribution).
-
----
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Data:** Synthetically generated to mirror realistic SME card behavior
 - **Methodology:** Industry-standard statistical testing, ML, and causal inference
@@ -547,3 +535,19 @@ This project is open-source under the MIT License. Feel free to use for learning
 **Last updated:** September 2026  
 **Status:** ✅ Complete & Production-Ready  
 **Next phase:** Tableau Dashboard (visualizations for stakeholder reporting)
+
+----
+
+## 📬 Contact
+
+**Sandeep Singh**
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/sandeep-singh-aaa1271b7/)
+- 📧 [Email](mailto:sandeepsinghss9871@gmail.com)
+- 💻 [GitHub](https://github.com/sandeepsingh9871)
+
+---
+
+- 🌐 [Portfolio](https://sandeep-data-analyst-portfolio.vercel.app/)
+
+---
