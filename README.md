@@ -63,8 +63,6 @@ jupyter notebook notebooks/Card_Churn_Retention_Analytics.ipynb
 Card-Churn-Retention-Analytics/
 │
 ├── README.md                                    ← You are here
-├── PROJECT_DOCUMENTATION.md                     ← Concept explanations + deep dive
-├── SQLITE_SETUP_GUIDE.md                        ← How to use SQLite
 │
 ├── Card_Churn_Retention_Analytics.ipynb    ← Full 8-phase Python analysis
 │       ├── Phase 1: Load & Clean (100K rows)
