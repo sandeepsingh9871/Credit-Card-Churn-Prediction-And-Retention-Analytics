@@ -116,6 +116,33 @@ Card-Churn-Retention-Analytics/
     │   ├── retention_curve_data.csv
     │   ├── top_2000_at_risk_customers.csv      ← Churn risk scores
     │   └── churn_prediction_model.pkl          ← Trained logistic regression
+
+├── Tableau Dashboard/
+│   ├── Card Churn Analytics Dashboard (Published)
+│   │   ├── Executive Summary Sheet
+│   │   │   └── KPI cards: Total customers, churn rate, received offer, offer retention
+│   │   │
+│   │   ├── Segment Analysis Sheets
+│   │   │   ├── Churn by Cardholder Role
+│   │   │   ├── Churn by Industry
+│   │   │   ├── Churn by Credit Score Band
+│   │   │   └── Churn by Business Size
+│   │   │
+│   │   ├── Risk Segmentation Sheets
+│   │   │   ├── Customers per Risk Tier (pie chart)
+│   │   │   ├── Risk Tier Profile (heat map) ← Spend, tenure, support calls, late payments
+│   │   │   └── High-Risk Customer Count (card)
+│   │   │
+│   │   ├── Offer Performance Sheets
+│   │   │   ├── Retention Comparison (Control vs Treated)
+│   │   │   ├── Retention by Offer Type (bar chart)
+│   │   │   └── Offer Effectiveness by Credit Band (heat map) ← Interaction effects
+│   │   │
+│   │   └── Cohort Analysis Sheet
+│   │       └── Retention Curve — Months 0-12 (line chart) ← Month-by-month retention decay
+│   │
+│   └── 🔗 [View Live Dashboard](https://public.tableau.com/views/CARDCHURNRETENTIONANALYTICSDASHBOARD/CARDCHURNRETENTIONANALYTICSDASHBOARD?:language=enUS&:sid=&:redirect=auth&:display_count=n&:origin=vizshare_link) ← Interactive, shareable, public Tableau Public link
+
 ```
 
 ---
