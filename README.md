@@ -141,7 +141,7 @@ Card-Churn-Retention-Analytics/
 │   │   └── Cohort Analysis Sheet
 │   │       └── Retention Curve — Months 0-12 (line chart) ← Month-by-month retention decay
 │   │
-│   └──  [View Live Dashboard][(https://public.tableau.com/views/CARDCHURNRETENTIONANALYTICSDASHBOARD/CARDCHURNRETENTIONANALYTICSDASHBOARD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+│   └──  [View Live Dashboard][(https://public.tableau.com/views/CARDCHURNRETENTIONANALYTICSDASHBOARD/CARDCHURNRETENTIONANALYTICSDASHBOARD?:language=enUS&:sid=&:redirect=auth&:display_count=n&:origin=viz)]
 │       ← Interactive, shareable, public Tableau Public link
 ```
 
