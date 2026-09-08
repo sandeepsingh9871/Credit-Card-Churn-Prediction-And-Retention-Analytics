@@ -512,6 +512,8 @@ Net ROI: +$1M (50% return)
 - 4 CSV exports (segment summary, test results, retention curves)
 - 1 trained model (churn_prediction_model.pkl)
 
+**Tableau Dashboard (12 sheets):**
+-  **[VIEW LIVE DASHBOARD](https://public.tableau.com/views/CARDCHURNRETENTIONANALYTICSDASHBOARD/CARDCHURNRETENTIONANALYTICSDASHBOARD?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**    ← Interactive, fully shareable, public on Tableau Public
 ---
 
 ## 🙋 FAQ
